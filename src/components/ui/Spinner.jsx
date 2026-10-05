@@ -1,0 +1,7 @@
+export default function Spinner({ label = 'Loading…' }) {
+  return (
+    <div className="spinner" role="status" aria-label={label}>
+      <span className="spinner__ring" />
+    </div>
+  )
+}
